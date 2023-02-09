@@ -81,7 +81,7 @@
   "dependencies": {
     "@koa/cors": "3.4.3",
     "@koa/router": "10.1.1",
-    "@strapi/admin": "4.6.0",
+    "@strapi/admin": "https://github.com/bz-kmnn/strapi/raw/main/packages/core/admin/strapi-admin-4.6.0.tgz",
     "@strapi/data-transfer": "4.6.0",
     "@strapi/database": "4.6.0",
     "@strapi/generate-new": "4.6.0",
