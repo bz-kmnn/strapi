@@ -1,5 +1,5 @@
 {
-  "name": "strapi",
+  "name": "@twento/strapi",
   "private": true,
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
