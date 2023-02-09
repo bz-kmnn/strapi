@@ -375,7 +375,10 @@ const reducer = (state, action) =>
           draftState.shouldCheckErrors = !state.shouldCheckErrors;
         }
 
-        draftState.modifiedData[action.dynamicZoneName].splice(action.index, 1);
+        const componentPathToRemove = ['modifiedData', ...action.dynamicZoneName.split('.')].join(
+          '.'
+        );
+        get(draftState, componentPathToRemove).splice(action.index, 1);
 
         break;
       }
