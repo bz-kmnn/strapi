@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/strapi",
+  "name": "@twento/strapi",
   "version": "4.6.0",
   "description": "An open source headless CMS solution to create and manage your own API. It provides a powerful dashboard and features to make your life easier. Databases supported: MySQL, MariaDB, PostgreSQL, SQLite",
   "keywords": [
